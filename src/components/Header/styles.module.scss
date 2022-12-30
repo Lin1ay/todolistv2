@@ -1,0 +1,19 @@
+.header {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 1rem auto 2rem;
+}
+.header__input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header__title {
+    width: 100%;
+}
+.header__input {
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+.todo__column_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ccccff;
+    min-height: 80vh;
+    width: 32%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 4px;
+}
+.todo__column_title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+    background-color: #ccccff;
+    margin-bottom: 20px;
+}
+.todo__column_addtodo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.todo__column_cards {
+    width: 100%;
+}

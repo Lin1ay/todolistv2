@@ -1,0 +1,10 @@
+.modal__buttons-group {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.modal__buttons-group {
+    button:last-child {
+        margin-left: 5px;
+    }
+}

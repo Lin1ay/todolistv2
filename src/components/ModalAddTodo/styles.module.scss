@@ -1,0 +1,15 @@
+.modal__content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.modal__content:first-child {
+    margin-bottom: 20px;
+}
+
+.modal__text {
+    white-space: pre-line;
+    margin-bottom: 10px;
+}

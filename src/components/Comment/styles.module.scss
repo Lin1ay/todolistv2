@@ -1,0 +1,32 @@
+.date__string {
+    font-size: 0.6rem;
+    color: darkgrey;
+}
+.comment__text {
+    font-size: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+.comment {
+    background-color: #e8e8ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    max-width: 100%;
+    width: fit-content;
+}
+.comment__input {
+    width: 100%;
+}
+.comment__link {
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: darkgrey;
+    width: fit-content;
+}
+.comment__link:hover {
+    color: red;
+}

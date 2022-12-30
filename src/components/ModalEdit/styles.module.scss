@@ -1,0 +1,38 @@
+.modal__input {
+    width: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+    height: fit-content;
+}
+.modal__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__date {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.modal__buttons-group {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.modal__buttons-group {
+    button:last-child {
+        margin-left: 5px;
+    }
+}
+
+.modal__title {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.modal__button {
+    width: 100%;
+    margin-top: 20px;
+}
